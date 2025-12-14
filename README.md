@@ -32,7 +32,7 @@ If you use this code or build upon this work, please cite the following paper:
 ```bibtex
 @inproceedings{arbaoui2026ontology,
   title     = {Ontology-Guided Large Language Model Pipeline for Structured Information Extraction from Battery Cell Datasheets},
-  author    = {Slimane Arbaoui, Ali Ayadi, Ahmed Samet, Tedjani Mesbahi and Romuald Bon{\'e}},
+  author    = {Slimane Arbaoui, Ali Ayadi, Ahmed Samet, Tedjani Mesbahi and Romuald Boné},
   booktitle = {NeuroSym4MLLM Workshop, EGC 2026},
   year      = {2026}
 }
