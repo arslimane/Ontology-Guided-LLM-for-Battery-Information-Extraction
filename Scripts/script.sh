@@ -23,8 +23,8 @@ export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
 # Run your Python script that handles PDF parsing and LLM inference
 echo "Starting PDF triple extraction script..."
 PDF_FILE="p1.pdf"
-ONTO_FILE="BatteryPhenomenon.owl"
-CHUNK_SIZE=1500
+ONTO_FILE="battery_cell_ontology.owl"
+CHUNK_SIZE=500
 MAX_NEW_TOKENS=1000
 
 
