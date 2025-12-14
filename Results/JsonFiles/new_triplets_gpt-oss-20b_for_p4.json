@@ -1,0 +1,100 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "Lithium Werks’ 26650 cells are capable... based on ... LiFePO4",
+            "head": "LithiumWerks26650Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasElectrochemistry",
+            "tail": "LiFePO4",
+            "tail_type": "Electrochemistry"
+        },
+        {
+            "Used_text": "Based on lithium iron phosphate chemistry (LiFePO4), the cells are inherently safe over a wide range of temperatures and conditions.",
+            "head": "Lithium Iron Phosphate Battery",
+            "head_type": "BatteryCell",
+            "relation": "hasElectrochemistry",
+            "tail": "Lithium Iron Phosphate",
+            "tail_type": "Material"
+        },
+        {
+            "Used_text": "Nanophosphate® battery technology offers stable chemistry, faster charging ...",
+            "head": "Nanophosphate 26650 LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasManufacturer",
+            "tail": "???",
+            "tail_type": "Manufacturer"
+        },
+        {
+            "Used_text": "The text does not contain any specific data",
+            "head": "None",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "none",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell has a nominal voltage of 3.3 V",
+            "head": "A123 26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.3",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "0s) 20 A",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasCRatePerformance",
+            "tail": "20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Float Voltage 3.45 V",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Certifications",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCertification",
+            "tail": "UN 3480 (UN38.3)",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Certifications",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCertification",
+            "tail": "CIQ",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Certifications",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCertification",
+            "tail": "Safety UL 1642",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Discharge (Ah)ANR26650M1B Discharge Voltage Profiles",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "Discharge (Ah)",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "The discharge voltage profile at 25°C ambient temperature in open air for the 650M1B cell",
+            "head": "650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "25°C",
+            "tail_type": "float"
+        }
+    ]
+}

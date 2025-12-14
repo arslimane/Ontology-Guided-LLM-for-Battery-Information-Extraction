@@ -1,0 +1,276 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "Applications • Energy storage • Uninterruptible Power Supplies • Communication technologies • Aerospace • Electrified mobility devices • Industrial equipment • Medical devices • Toys",
+            "head": "LithiumWerks26650Cells",
+            "head_type": "BatteryCell",
+            "relation": "hasSpecification",
+            "tail": "Applications",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "Lithium Werks’ 26650 cells are capable of delivering very high power due to its use of patented Nanophosphate ® battery technology.",
+            "head": "LithiumWerks26650Cells",
+            "head_type": "BatteryCell",
+            "relation": "hasElectrochemistry",
+            "tail": "Nanophosphate ® battery technology",
+            "tail_type": "Electrochemistry"
+        },
+        {
+            "Used_text": "Based on lithium iron phosphate chemistry (LiFePO4), the cells are inherently safe over a wide range of temperatures and conditions.",
+            "head": "LithiumWerks26650Cells",
+            "head_type": "BatteryCell",
+            "relation": "hasCellType",
+            "tail": "lithium iron phosphate chemistry (LiFePO4)",
+            "tail_type": "CellType"
+        },
+        {
+            "Used_text": "Based on lithium iron phosphate chemistry (LiFePO4)",
+            "head": "Lithium Werks’ 26650 cells",
+            "head_type": "BatteryCell",
+            "relation": "hasElectrochemistry",
+            "tail": "LiFePO4",
+            "tail_type": "Material"
+        },
+        {
+            "Used_text": "Nanophosphate® battery technology offers stable chemistry",
+            "head": "Nanophosphate® battery technology",
+            "head_type": "Electrochemistry",
+            "relation": "hasElectrochemistry",
+            "tail": "unspecified",
+            "tail_type": "Electrochemistry"
+        },
+        {
+            "Used_text": "Nanophosphate® battery technology offers faster charging",
+            "head": "Nanophosphate® battery technology",
+            "head_type": "Electrochemistry",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "unspecified",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Nanophosphate® Technology26650 Lithium Ion Power Cell",
+            "head": "Nanophosphate",
+            "head_type": "Electrochemistry",
+            "relation": "hasElectrochemistry",
+            "tail": "Nanophosphate",
+            "tail_type": "Electrochemistry"
+        },
+        {
+            "Used_text": "All information provided herein is believed, but not guaranteed, to be current and accurate. Nail penetration Pass - EUCAR4 Over-Discharge Pass - EUCAR3 Thermal Stability Pass - EUCAR4 External Short Pass - EUCAR3 Crush Pass - EUCAR3 Overcharge Pass - EUCAR2 Vent Open Pressure 1.0 - 2.0 MPaAbuse50%60%70%80%90%100%110% 0 500 1000 1500 2000 2500 Rated Capacity Cycles ANR26650M1B, 1C/1C, Room Temp Cell Data Nominal Ratings Voltage 3.3 V Capacity @ 25 °C Typ (Min) 2.6 Ah (2.5)",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "ANR26650M1B",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "All information provided herein is believed, but not guaranteed, to be current and accurate. Nail penetration Pass - EUCAR4 Over-Discharge Pass - EUCAR3 Thermal Stability Pass - EUCAR4 External Short Pass - EUCAR3 Crush Pass - EUCAR3 Overcharge Pass - EUCAR2 Vent Open Pressure 1.0 - 2.0 MPaAbuse50%60%70%80%90%100%110% 0 500 1000 1500 2000 2500 Rated Capacity Cycles ANR26650M1B, 1C/1C, Room Temp Cell Data Nominal Ratings Voltage 3.3 V Capacity @ 25 °C Typ (Min) 2.6 Ah (2.5)",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.3",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "All information provided herein is believed, but not guaranteed, to be current and accurate. Nail penetration Pass - EUCAR4 Over-Discharge Pass - EUCAR3 Thermal Stability Pass - EUCAR4 External Short Pass - EUCAR3 Crush Pass - EUCAR3 Overcharge Pass - EUCAR2 Vent Open Pressure 1.0 - 2.0 MPaAbuse50%60%70%80%90%100%110% 0 500 1000 1500 2000 2500 Rated Capacity Cycles ANR26650M1B, 1C/1C, Room Temp Cell Data Nominal Ratings Voltage 3.3 V Capacity @ 25 °C Typ (Min) 2.6 Ah (2.5)",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "2.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Nominal Ratings",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.3",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Nominal Ratings",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "2.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Nominal Ratings",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasEnergyDensityGravimetric",
+            "tail": "8.25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharging",
+            "head": "ANR26650M1B",
+            "head_type": "BatteryCell",
+            "relation": "hasMaxContinuousDischargeCurrent",
+            "tail": "50",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Life at 1C/1C,",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCRate",
+            "tail": "1",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Life at 1C/1C,",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCRate",
+            "tail": "1",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "100% DOD> 4000 cycles",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCycleLife",
+            "tail": "4000",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharging",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaxContinuousDischargeCurrent",
+            "tail": "50",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharging",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaxContinuousDischargeCurrent",
+            "tail": "50",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "0s) 20 A",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeSpecification",
+            "tail": "20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Float Voltage 3.45 V",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Recommended charge V & Cut-off Current3.6 V, taper to 125mA",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "3.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Temperature Range reduce charging current to 250mA when under 0 °C0 °C to 55 °C",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "55",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Storage Storage Temperature -40 °C to 60 °C",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Mechanical Diameter Ø25.96 +/- 0.5 mm",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "25.96",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Mechanical Diameter Ø25.96 +/- 0.5 mm",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "0.5",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Mechanical Length 65.15 +/- 0.5 mm",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "65.15",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Mechanical Length 65.15 +/- 0.5 mm",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "0.5",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Mechanical Mass 76 g +/- 1.0 g",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "76",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Mechanical Mass 76 g +/- 1.0 g",
+            "head": "ANR26650M1B Nanophosphate",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "1.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Certifications Transportation UN 3480 (UN38.3), CIQ Safety UL 1642, IEC 62133-2",
+            "head": "ANR26650M1B Nanophosphate® Technology",
+            "head_type": "BatteryCell",
+            "relation": "hasCertification",
+            "tail": "UN 3480 (UN38.3), CIQ",
+            "tail_type": "Certification"
+        },
+        {
+            "Used_text": "Certifications Transportation UN 3480 (UN38.3), CIQ Safety UL 1642, IEC 62133-2",
+            "head": "ANR26650M1B Nanophosphate® Technology",
+            "head_type": "BatteryCell",
+            "relation": "hasCertification",
+            "tail": "UL 1642",
+            "tail_type": "Certification"
+        },
+        {
+            "Used_text": "Certifications Transportation UN 3480 (UN38.3), CIQ Safety UL 1642, IEC 62133-2",
+            "head": "ANR26650M1B Nanophosphate® Technology",
+            "head_type": "BatteryCell",
+            "relation": "hasCertification",
+            "tail": "IEC 62133-2",
+            "tail_type": "Certification"
+        },
+        {
+            "Used_text": "650M1B Discharge Voltage Profiles",
+            "head": "650M1B Discharge Voltage Profiles",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "1C Voltage",
+            "tail_type": "OperatingCondition"
+        }
+    ]
+}

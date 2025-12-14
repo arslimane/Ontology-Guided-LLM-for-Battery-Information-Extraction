@@ -1,0 +1,372 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "The text does not contain any specific data",
+            "head": "None",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "??",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "直 (Diameter), d ---------- ------------  26.3±0?",
+            "head": "26650 L...",
+            "head_type": "BatteryCell",
+            "relation": "hasDiameter",
+            "tail": "26.3",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "直 (Diameter), d ---------- ------------  26.3±0..",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDiameter",
+            "tail": "26.3",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "高 (Height, h) ...???",
+            "head": "",
+            "head_type": "ThermalProperty",
+            "relation": "hasHeight",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Maximum continuous charge current ---- 2500mA",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaxContinuousDischargeCurrent",
+            "tail": "2500",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "age) --- 2.75V",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "2.75",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard charge: 0. 2C constant current (CC) charge to 4.2V, ...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.3 出荷時開路電压 ... Voltage is tested within 1 week after delivery 3.6V or more",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.2 外观 外部尺寸 直径 26.26? ?? … .. ..? ..? ..??? ..??……………..? ..??…..?…..?",
+            "head": "Batteryx????..??..???",
+            "head_type": "BatteryCell",
+            "relation": "hasDiameter",
+            "tail": "26.3",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Voltage is tested within 1 week after delivery  3.6V or more",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell impedance ……. ...???…..??…..??..??..??…..??…..??…..??…..??…..??…..??…..?",
+            "head": "Lithium…..??..??..??..…....…..…..…..…..…....??…..??…....??..??…..t…..........…..…....??……..???",
+            "head_type": "OperatingCondition",
+            "relation": "hasInternalResistance",
+            "tail": "25?",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "25±5mΩ or less",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "in a icebox with ambient temperature \"+\"?",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "..???",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard DCH to the end of DCH voltage at 25°C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "容量百分比  ≥50%",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCapacityRetentionAtCRate",
+            "tail": "50",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.7",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.7",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "300 cycles of standard ...",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCycleLife",
+            "tail": "300",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell shall standard charged and then ...",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasVolume",
+            "tail": "...",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell mass is 45 grams and the maximum charge voltage is 4.2V",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Extern …",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasShortCircuitBehavior",
+            "tail": "...",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The cell ...",
+            "head": ".............???............…",
+            "head_type": "BatteryCell",
+            "relation": "hasShortCircuitBehavior",
+            "tail": "..??..............…",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Over charge  标准充电后，以 2200mA 的电流， 10V连续充电",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasFastChargeCurrent",
+            "tail": "2200",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell  shall be standard charged, and discharged with 50Ω resistor load for 24 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The oven is to remain ...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "130",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Crush test 将电池放在两个平面之间，使用直径 32mm的圆柱体施加压力，压强持续…",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCrushTestResult",
+            "tail": "Not …..…??…???…??…..??…..……..……………..…………..………………………………..……..…..…………………………..……..……………………………..……..………………………………………………………..……t?……………..…………………………………………………………………………………………………?…..………..………………………………………………………………………………………………………………………………………………..………..……..……..……………………………………………‑……………………………………………………………………………………………?…..………..………………………………………………………………………………………………………………………………………………………..……………………………………………………………………………………………………………………………..……………..……..………………………………………We ……………………………………………………………………………………………………………………………………………………………..……..………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………...",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The crushing is ...",
+            "head": "BatteryCell?",
+            "head_type": "BatteryCell",
+            "relation": "hasCrushTestResult",
+            "tail": "…..???..??..??..??..…..…..??…............…....……......…",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The cell mass is 45 grams and the maximum charge voltage is 4..",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The text does not contain any data",
+            "head": "None",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "none",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "ions ...",
+            "head": "..???..",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "??..???",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "不要将电池靠近火源或热源。",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasShortCircuitBehavior",
+            "tail": "不",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The text does not contain any data",
+            "head": "N/A",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "...",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "不要踩踏电池，或将其...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Avoid mechanical shock",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "不要把电池放进微波炉、...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "as dry",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The battery becomes abnormally...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasShortCircuitBehavior",
+            "tail": "abnormal",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The battery ca",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Charge temperature ranges: 0~45°C",
+            "head": "hasOperatingTemperatureChargeMin",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "rge temperature ranges: 0~45°C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "rge temperature ranges: 0~??°C",
+            "head": "Battery?",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell mass is 45 grams and the maximum charge voltage…",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "cell.",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "cell",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The text does not contain any relevant data",
+            "head": "None",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "None",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The battery ...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "...",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The battery should be removed from the storage",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMin",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "t",
+            "head": "t",
+            "head_type": "BatteryCell",
+            "relation": "hasManufacturer",
+            "tail": "??",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "...",
+            "head": "...",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "..",
+            "tail_type": "float"
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "Rechargeable Lithium-ion P olymer Battery Bare Cell",
+            "head": "Rechargeable Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "CellType",
+            "relation": "hasCellType",
+            "tail": "Li-ion Polymer",
+            "tail_type": "CellType"
+        },
+        {
+            "Used_text": "Nominal V oltage [v]",
+            "head": "Nominal V oltage",
+            "head_type": "ElectricalProperty",
+            "relation": "hasNominalVoltage",
+            "tail": "[v]",
+            "tail_type": "ElectricalProperty"
+        },
+        {
+            "Used_text": "The weight of the cell is approximately",
+            "head": "LiOnCell",
+            "head_type": "CellType",
+            "relation": "hasMass",
+            "tail": "approximately",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The battery has a nominal voltage of 7 V.",
+            "head": "Voltage",
+            "head_type": "ThermalProperty",
+            "relation": "hasOperatingVoltageRangeMin",
+            "tail": "7",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The battery has a nominal capacity of 1710 mAh at 2 C.",
+            "head": "Capacity",
+            "head_type": "PerformanceProperty",
+            "relation": "hasCRatePerformance",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "CE, FCCCharge Cut -off Voltage    ",
+            "head": "CE",
+            "head_type": "Manufacturer",
+            "relation": "hasChargeSpecification",
+            "tail": "FCCCharge Cut -off Voltage",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "Life Expectancy @0.2 C,  23±2° C",
+            "head": "Life Expectancy",
+            "head_type": "PerformanceProperty",
+            "relation": "hasCRatePerformance",
+            "tail": "@0.2 C,  23±2° C",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "Operating T emperature                      0 to +   ",
+            "head": "Operating temperature",
+            "head_type": "OperatingCondition",
+            "relation": "hasOperatingVoltageRangeMin",
+            "tail": "0",
+            "tail_type": "EnvironmentalCondition"
+        },
+        {
+            "Used_text": "Operating T emperature                      0 to +   ",
+            "head": "Operating temperature",
+            "head_type": "OperatingCondition",
+            "relation": "hasOperatingVoltageRangeMax",
+            "tail": "+",
+            "tail_type": "EnvironmentalCondition"
+        },
+        {
+            "Used_text": "Discharge -20 to +60° C[V]",
+            "head": "Discharge temperature",
+            "head_type": "OperatingCondition",
+            "relation": "hasOperatingVoltageRangeMin",
+            "tail": "-20",
+            "tail_type": "EnvironmentalCondition"
+        },
+        {
+            "Used_text": "Discharge -20 to +60° C[V]",
+            "head": "Discharge temperature",
+            "head_type": "OperatingCondition",
+            "relation": "hasOperatingVoltageRangeMax",
+            "tail": "+60",
+            "tail_type": "EnvironmentalCondition"
+        },
+        {
+            "Used_text": "Storage temperature @ 45°C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Storage temperature @ 45°C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Storage temperature @ -2o C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "-2o",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Storage temperature @ 2o C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "2o",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Length",
+            "head": "Dimension",
+            "head_type": "Dimension",
+            "relation": "hasLength",
+            "tail": "Not specified",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Width",
+            "head": "Dimension",
+            "head_type": "Dimension",
+            "relation": "hasWidth",
+            "tail": "Not specified",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Thickness",
+            "head": "Dimension",
+            "head_type": "Dimension",
+            "relation": "hasThickness",
+            "tail": "Not specified",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "Manufacturer",
+            "relation": "hasManufacturer",
+            "tail": "",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "CellType",
+            "relation": "hasCellType",
+            "tail": "LiPo",
+            "tail_type": "CellType"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "Specification",
+            "relation": "hasChargeSpecification",
+            "tail": "2.0",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "Specification",
+            "relation": "hasChargeSpecification",
+            "tail": "3420",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "Specification",
+            "relation": "hasChargeSpecification",
+            "tail": "mS",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "ThermalProperty",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "10",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Rechargeable Lithium ion polymer Battery Bare Cell",
+            "head": "Rechargeable Lithium Ion Polymer Battery Bare Cell",
+            "head_type": "ThermalProperty",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "battery is always recommended to be stored at 2³±²°C",
+            "head": "battery",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "2³±²°C",
+            "tail_type": "EnvironmentalCondition"
+        }
+    ]
+}

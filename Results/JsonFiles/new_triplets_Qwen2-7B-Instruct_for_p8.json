@@ -1,0 +1,564 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "Rechargeable Lithium-ion P olymer Battery Bare Cell",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "Rechargeable",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Nominal V oltage [V]",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "NaN",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Capacity [mAh]",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "NaN",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Min.",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasMinimumCapacity",
+            "tail": "NaN",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Impedance Initial [mΩ]",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "NaN",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Dimensions[mm]",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "NaN",
+            "tail_type": "Dimension"
+        },
+        {
+            "Used_text": "ons[mm]",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "1",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Weight Approx.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "5.8",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Max. 5.8  (at delivery)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "5.8",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Max. 6.26  (after cycling)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "6.26",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Max. 44.5",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "44.5",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Max. 50.5 (exclude tabs)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "50.5",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "26.0±2.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "26.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "6.0±1.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "6.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.0±0.2",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "3.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.0±0.5",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "3.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "25.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "25.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "26.0±2.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "26.0±2.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "6.0±1.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "6.0±1.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.0±0.2",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "3.0±0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.0±0.5",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "3.0±0.5",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "25.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingVoltageRangeMax",
+            "tail": "25.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.7 (rated)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.7",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "1730 (0.2C @ 23±2°C)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCRatePerformance",
+            "tail": "1730",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "1710 (0.2C @ 23±2°C)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCRatePerformance",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "≤60 @ A C1kHz, 4.2V",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasElectricalProperty",
+            "tail": "≤60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "@ 0.2C (342mA)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeSpecification",
+            "tail": "342",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "@ 1.0C (1710mA)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharge Current     @ 1.0C (1710mA)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharge Cut -off Voltage   3.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "3.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "≥80% after 500 cyclesTyp.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCycleLife",
+            "tail": "500",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "0C (1710mA)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStandardChargeCurrent",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharge Cut -off Voltage   3.0",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "3.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "≥80% after 500 cyclesTyp.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEndOfLifeCapacityPercent",
+            "tail": "80",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Cell V oltage                3.70-3.95",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingVoltageRangeMin",
+            "tail": "3.70",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Cell V oltage                3.70-3.95",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingVoltageRangeMax",
+            "tail": "3.95",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": ".95",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Cell Capacity",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "30-70",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "[V]",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingVoltageRangeMax",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "CE, FCCCharge Cut -off Voltage   4.2",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Life Expectancy @0.2C, 23±2°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCycleLife",
+            "tail": "N/A",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Operating T emperature                      0 to +45°C Charge",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "-17.8",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Operating T emperature                      0 to +45°C Charge",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "D",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.7",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "D",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "D",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnergyDensityGravimetric",
+            "tail": "6.33",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "mAh 6.33Wh",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "6.33",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "mAh 6.33Wh",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnergyDensityGravimetric",
+            "tail": "6.33",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "T: Charge high T@ 2.0C (3420mA) 2~3mS @10~60°C",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeSpecification",
+            "tail": "2.0C (3420mA) 2~3mS @10~60°C",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "T: Charge high T@ 2.0C (3420mA) 2~3mS @10~60°C",
+            "head": "Lithium-ion P olymer Battery Bare Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "23±2°C",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Voltage",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "4.4",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Current",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStandardChargeCurrent",
+            "tail": "200",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "00300Cycle Life (23±2°C )",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "23±2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Cycle Life (times)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCycleLife",
+            "tail": "times",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Rate=0.2C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCRate",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "4.4Voltage (V)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingVoltageRangeMax",
+            "tail": "4.4",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "4.2",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharge Characteristics (by rate)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "25°C",
+            "tail_type": "OperatingCondition"
+        },
+        {
+            "Used_text": "Discharge Characteristics (by rate)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "4.4Voltage (V)",
+            "tail_type": "ElectricalProperty"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "4.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "3.8",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "3.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "3.4",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "3.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "电压(V)",
+            "head": "电压",
+            "head_type": "ElectricalProperty",
+            "relation": "hasElectricalProperty",
+            "tail": "3.0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "current information and further details, please contact us***",
+            "head": "initially with Constant Current (CC) at 0.2C and then with Constant Voltage (CV) at 4.2V till charge current declines to 0.02C.",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeSpecification",
+            "tail": "Constant Current (CC) at 0.2C followed by Constant Voltage (CV) at 4.2V until charge current drops to 0.02C",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "current information and further details, please contact us***",
+            "head": "battery is always recommended to be stored at 23±2°C",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "23±2°C",
+            "tail_type": "OperatingCondition"
+        },
+        {
+            "Used_text": "ell capacity recovery rate in time V .S %, battery is always recommended to be stored at 23±2°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "23±2°C",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Shenzhen Honcell Energy Co., Ltd.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasManufacturer",
+            "tail": "Shenzhen Honcell Energy Co., Ltd.",
+            "tail_type": "Manufacturer"
+        }
+    ]
+}

@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/battery_cell_ontology.owl"
+         xmlns="http://example.org/battery_cell_ontology.owl#">
+
+<owl:Ontology rdf:about="http://example.org/battery_cell_ontology.owl"/>
+
+<owl:ObjectProperty rdf:about="#hasManufacturer">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Manufacturer"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSpecification">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Specification"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasElectricalProperty">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#ElectricalProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasThermalProperty">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#ThermalProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasMechanicalProperty">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#MechanicalProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSafetyProperty">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#SafetyProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasPerformanceProperty">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#PerformanceProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasElectrochemistry">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Electrochemistry"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCellType">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#CellType"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasMaterial">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Material"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCathodeMaterial">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Material"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasAnodeMaterial">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Material"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasChargeSpecification">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Specification"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasDischargeSpecification">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Specification"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCycleLife">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#CycleLife"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCRatePerformance">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#C_RatePerformance"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasDimension">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Dimension"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasMass">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Mass"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasOperatingCondition">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#OperatingCondition"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasEnvironmentalCondition">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#EnvironmentalCondition"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCertification">
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+  <rdfs:range rdf:resource="#Certification"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#hasModelName">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNominalVoltage">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNominalCapacity">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasMinimumCapacity">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasInternalResistance">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasEnergyDensityGravimetric">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasEnergyDensityVolumetric">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasChargeCutoffVoltage">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasDischargeCutoffVoltage">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOperatingVoltageRangeMin">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOperatingVoltageRangeMax">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasStandardChargeCurrent">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasFastChargeCurrent">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasMaxContinuousDischargeCurrent">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPulseDischargeCurrent">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOperatingTemperatureChargeMin">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOperatingTemperatureChargeMax">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOperatingTemperatureDischargeMin">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOperatingTemperatureDischargeMax">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasStorageTemperatureMin">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasStorageTemperatureMax">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasDiameter">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Dimension"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasWidth">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Dimension"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasHeight">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Dimension"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasThickness">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Dimension"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasLength">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Dimension"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasVolume">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Dimension"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasWeight">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Mass"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOverchargeTolerance">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasShortCircuitBehavior">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPenetrationTestResult">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasCrushTestResult">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasVentMechanismPresence">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasUN38_3Certification">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasIEC62133Certification">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasULCertification">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNumberOfCycles">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#CycleLife"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasEndOfLifeCapacityPercent">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#CycleLife"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasCycleTestTemperature">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#CycleLife"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasChargeCRate">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#C_RatePerformance"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasDischargeCRate">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#C_RatePerformance"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasCapacityRetentionAtCRate">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#C_RatePerformance"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSourcePDF">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#BatteryCell"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#BatteryCell">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Manufacturer">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Specification">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ElectricalProperty">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ThermalProperty">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#MechanicalProperty">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SafetyProperty">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PerformanceProperty">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CycleLife">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#C_RatePerformance">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Electrochemistry">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CellType">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dimension">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mass">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#OperatingCondition">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#EnvironmentalCondition">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Material">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Certification">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+
+</rdf:RDF>

@@ -1,0 +1,1260 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "型号 (Model): 26650 -5000",
+            "head": "LithiumIonBattery",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "26650 -5000",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "产格 (Product Specifications)",
+            "head": "ProductSpecifications",
+            "head_type": "Specification",
+            "relation": "hasSpecification",
+            "tail": "ProductSpecifications",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "直 (Diameter), d ---------- ------------  26.3±0.2mm",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "26.3±0.2mm",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "高 (Height), h -------------------------  65.2±0.2mm",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "65.2±0.2mm",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "重 (Mass) ---------------------------  \\\\u7531 (Approx)",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "约98g",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Minimum",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMinimumCapacity",
+            "tail": "4900",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Maximum charge voltage",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaxContinuousDischargeCurrent",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Maximum continuous charge current",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStandardChargeCurrent",
+            "tail": "2500",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Maximum discharge current",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaxContinuousDischargeCurrent",
+            "tail": "5000",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Discharge cut-off voltage",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "2.75",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Internal impedance",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Operation temperature Discharge",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Operation temperature Charge",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Operation temperature Discharge",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Operation temperature Charge",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "age) --- 2.75V",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingVoltageRangeMin",
+            "tail": "2.75",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "内阻 (Internal impedance) (23 ±2°C)---------  ≤25±5mΩ",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "使用温度  (Operation temperature) ",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "放电 (Discharge) -------------------------------  -20-60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "放电 (Discharge) -------------------------------  -20-60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "充电 (Charge) -------------------------------------  0-45°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "充电 (Charge) -------------------------------------  0-45°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "保存温度 (Storage temperature) \\\\$不能结露 non-cond ensing)\\n1个月以内（ Within 1month) ------------------  -20-60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "保存温度 (Storage temperature) \\\\)不能结露 non-cond ensing)\\n1个月以内（ Within 1month) ------------------  -20-60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3 1-3个月（ 1-3months) ---------------------------  -20-40°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "40",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3-12个月（ 3-12months) ------------------------  -20-25°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "PASIFIK ELEKTRONIK ITH .IHR.SAN.VE TIC.LTD.STI.",
+            "head": "PASIFIK ELECTRONIC ITH IHR SAN VE TIC LTD STI",
+            "head_type": "Manufacturer",
+            "relation": "hasManufacturer",
+            "tail": "Lithium Ion Rechargeable Battery Cell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "This specification shall be applied to Lithium ion rechargeable battery cell supplied by Pasifik electronic ith ihr san ve tic , Ltd.",
+            "head": "Lithium Ion Rechargeable Battery Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasSpecification",
+            "tail": "Pasifik Electronic Ith Ihr San Ve Tic Ltd",
+            "tail_type": "Manufacturer"
+        },
+        {
+            "Used_text": "argeable battery cell supplied by Pasifik electronic ith ihr san ve tic , Ltd.",
+            "head": "Pasifik Electronic Ith Ihr San Ve Tic Ltd",
+            "head_type": "Manufacturer",
+            "relation": "hasManufacturer",
+            "tail": "argeable battery cell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Unless otherwise specified, all tests stated in this document shall be performed at 23±2°C.",
+            "head": "argeable battery cell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "23",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Unless otherwise specified, all tests stated in this document shall be performed at 23±2°C.",
+            "head": "argeable battery cell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "23",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "恒压电至小于 0.02C。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard charge: 0. 2C constant current (CC) charge to 4.2V, followed by 4.2V constant voltage (CV) charge until current taper to ≤0.02C.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStandardChargeCurrent",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard charge: 0. 2C constant current (CC) charge to 4.2V, followed by 4.2V constant voltage (CV) charge until current taper to ≤0.02C.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "标准电：0.2C恒流至放电止压2.75V。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "2.75",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard d ischarge: 0. 2C CC discharge to the end of discharge voltage  2.75V.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "2.75",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard d ischarge: 0. 2C CC discharge to the end of discharge voltage  2.75V.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStandardChargeCurrent",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "序号 No.测试项目 Test item测试条件 Test conditions要求 Requirements",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDimension",
+            "tail": "Dimensions",
+            "tail_type": "Material"
+        },
+        {
+            "Used_text": "conditions  ，要求  ",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "conditions",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "conditions  ，要求  ",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "requirements",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Voltage is tested within 1 week after delivery  3.6V或以上",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.6",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Voltage is tested within 1 week after delivery  3.6V或以上",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMinimumCapacity",
+            "tail": "5000",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "after delivery.  25±5mΩ或以下",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "25±5mΩ or less",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.5标称容量",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "5000",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "5000mAh or more",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "5000",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.6温度特性",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasThermalProperty",
+            "tail": "temperature-rate performance",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Temperature -rate performance",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasThermalProperty",
+            "tail": "temperature-rate performance",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "1）常温下标准充电",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "standard charging at room temperature",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Standard CH at R.T",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "standard charging at room temperature",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "将测试电池放入 -10°C恒温箱，搁置 4小时",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "-10°C storage for 4 hours",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Keep batteries in a icebox with ambient temperature of -10°C for 4 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "-10°C storage for 4 hours",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "-10°C下0.2C放电至终止电压，计算放电容量与标称容量的百分比。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasPerformanceProperty",
+            "tail": "discharge at -10°C until end voltage, calculate discharge capacity percentage relative to nominal capacity",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "DCH at 0.2C to the end of DCH voltage at -10°C; Calculate the capacity ratio with the nominal capacity",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasPerformanceProperty",
+            "tail": "discharge at -10°C until end voltage, calculate discharge capacity percentage relative to nominal capacity",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "in a icebox with ambient temperature of -10°C for 4 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "-10",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "-10°C下0.2C放电至终止电压，计算放电容量与标称容量的百分比。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "DCH at 0.2C to the end of DCH voltage at -10°C;",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Calculate the capacity ratio with the nominal capacity.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasPerformanceProperty",
+            "tail": "capacity retention at different temperatures",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "2）常温下标准充电",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard CH at R.T",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Keep batteries in a icebox with ambient temperature of 25°C for 4 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "25°C下标准放电至终止电压，计算与标称容量的百分比。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Standard DCH to the end of DCH voltage at 25°C;",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Calculate the capacity ratio with the nominal capacity.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasPerformanceProperty",
+            "tail": "capacity retention at different temperatures",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "with ambient temperature of 25°C for 4 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "with ambient temperature of 25°C for 4 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "25",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "容量百分比  ≥50%",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEndOfLifeCapacityPercent",
+            "tail": "50",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "容量百分比  ≥100%",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEndOfLifeCapacityPercent",
+            "tail": "100",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "容量百分比  ≥80%",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEndOfLifeCapacityPercent",
+            "tail": "80",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "5 of 40°C for 4 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "40",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "40°C下标准放电至终止电压，计算与标称容量的百分比。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "40",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "40°C下标准放电至终止电压，计算与标称容量的百分比。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "40",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.7循环寿命",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNumberOfCycles",
+            "tail": "300",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "共充放电300次循环。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNumberOfCycles",
+            "tail": "300",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "末次放电容量/首次放电容量≥70",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEndOfLifeCapacityPercent",
+            "tail": "70",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "voltage at 40°C;",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "40",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Calculate the capacity ratio with the nominal capacity.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasPerformanceProperty",
+            "tail": "Calculate the capacity ratio with the nominal capacity.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The cell shall be standard charged and then dropped onto hard wood from the height of 75 cm in 3 directions X, Y , and Z once at each direction.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "standard charging",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The cell shall be standard charged and then dropped onto hard wood from the height of 75 cm in 3 directions X, Y , and Z once at each direction.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "hardwood drop test",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "No fire, nor explosion",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "No fire, nor explosion",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "No explosion and flame, no deformation.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "No explosion and flame, no deformation.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Possible to be charged and discharged.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Possible to be charged and discharged.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Possible to be charged and discharged.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeSpecification",
+            "tail": "Possible to be charged and discharged.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Possible to be charged and discharged.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "Possible to be charged and discharged.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "5.1 external short circuit  The cell shall be standard charged. The plus and minus terminals of the cell shall be short circuited with a wire having 50mΩ or less resistance, and left for 1 hour.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasShortCircuitBehavior",
+            "tail": "No explosion and flame, nor deformation.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "5.2 over charge After standard charged, the cell shall b",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOverchargeTolerance",
+            "tail": "2200mA",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "or less resistance, and left for 1 hour.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasInternalResistance",
+            "tail": "less",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "or less resistance, and left for 1 hour.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "left for 1 hour",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The cell shall be standard charged, and discharged with 50Ω resistor load for 24 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "discharged with 50Ω resistor load for 24 hours",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "The cell shall be standard charged, and discharged with 50Ω resistor load for 24 hours.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeSpecification",
+            "tail": "standard charged",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "e charged batteries are heated in a gravity convection or circulating air oven.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "130",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The oven is to remain for 30 minutes at 130±2°C before the test is discontinued.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "130",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The impact test procedure involves placing a fully charged battery on a flat surface, positioning a 15.8mm diameter steel rod across the center, and dropping a 9.1kg weight from a height of 610mm.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "ImpactTestProcedure",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "The crush test procedure involves placing the battery between two planes, applying pressure using a 32mm diameter cylinder until the pressure reaches 17.2MPa, and releasing the pressure once it reaches 13kN.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "CrushTestProcedure",
+            "tail_type": "Specification"
+        },
+        {
+            "Used_text": "is to be dropped from a height of 24+1 inch (610mm) onto the sample.  不起火，不爆炸。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "No fire, nor explosion",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "is to be dropped from a height of 24+1 inch (610mm) onto the sample.  不起火，不爆炸。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "No fire, nor explosion",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "on. The crushing is to be continued until a pressure reading of 17.2MPa is reached on the hydraulic ram, applied force of 13kN.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMechanicalProperty",
+            "tail": "CrushTestResult",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "on. The crushing is to be continued until a pressure reading of 17.2MPa is reached on the hydraulic ram, applied force of 13kN.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMechanicalProperty",
+            "tail": "17.2MPa",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "on. The crushing is to be continued until a pressure reading of 17.2MPa is reached on the hydraulic ram, applied force of 13kN.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMechanicalProperty",
+            "tail": "13kN",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Can top face (positive terminal) and side is covered with insulation tubing.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaterial",
+            "tail": "InsulationTubing",
+            "tail_type": "Material"
+        },
+        {
+            "Used_text": "20°C is recommended), low humidity, no dust and no corrosive gas atmosphere.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "20°C is recommended), low humidity, no dust and no corrosive gas atmosphere.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "ions of Lithium Ion Rechargeable Cells  and Batteries ",
+            "head": "LithiumIonRechargeableCellsAndBatteries",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "ions of Lithium Ion Rechargeable Cells  and Batteries ",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "【危险！ 】 [ Danger!]",
+            "head": "LithiumIonRechargeableCellsAndBatteries",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Danger",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Do not use the battery in a place where the temperature exceeds 60°C.",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "Temperature above 60°C",
+            "tail_type": "EnvironmentalCondition"
+        },
+        {
+            "Used_text": "Do not expose the battery to fire or heat sources.",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Fire and heat exposure",
+            "tail_type": "SafetyProperty"
+        },
+        {
+            "Used_text": "Don't immerse, throw, wet the battery in water / seawater.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Don't immerse, throw, wet the battery in water / seawater.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't store the battery in a pocket or a bag together with metallic objects such as keys, necklaces, hair pins, coins, or screws.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Don't store the battery in a pocket or a bag together with metallic objects such as keys, necklaces, hair pins, coins, or screws.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't short circuit (+) and ( -) terminals with metallic object intentionally.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Don't short circuit (+) and ( -) terminals with metallic object intentionally.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't heat partial area of the battery with heated",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Don't heat partial area of the battery with heated",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "9 不要  金属  ...",
+            "head": "SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Don't short circuit (+) and ( -) terminals with metallic object intentionally.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't step on the battery and throw or drop the battery on the hard floor to avoid mechanical shock.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Avoid mechanical shock due to stepping on or dropping the battery on hard floors",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't disassemble the battery or modify the battery design including  electric circuit.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Do not disassemble or modify the battery design including electric circuit",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't use seriously scared or deformed battery.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Avoid using severely twisted or deformed batteries",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't put the battery into a microwave oven, dryer or high -pressure container.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Avoid placing the battery in a microwave oven, dryer, or high-pressure container",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Don't use o",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Avoid using batteries from other manufacturers, different types, or different specifications (such as dry cells, nickel-metal hydride batteries, or nickel-cadmium batteries)",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "r deformed battery.",
+            "head": "R Deformed Battery",
+            "head_type": "BatteryCell",
+            "relation": "hasModelName",
+            "tail": "R Deformed Battery",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "as dry  batteries, nickel -metal hydride batteries, or nickel -cadmium batteries.",
+            "head": "DryBattery",
+            "head_type": "BatteryCell",
+            "relation": "hasCellType",
+            "tail": "dry battery",
+            "tail_type": "CellType"
+        },
+        {
+            "Used_text": "as dry  batteries, nickel -metal hydride batteries, or nickel -cadmium batteries.",
+            "head": "NickelMetalHydrideBattery",
+            "head_type": "BatteryCell",
+            "relation": "hasCellType",
+            "tail": "nickel-metal hydride",
+            "tail_type": "CellType"
+        },
+        {
+            "Used_text": "as dry  batteries, nickel -metal hydride batteries, or nickel -cadmium batteries.",
+            "head": "NickelCadmiumBattery",
+            "head_type": "BatteryCell",
+            "relation": "hasCellType",
+            "tail": "nickel-cadmium",
+            "tail_type": "CellType"
+        },
+        {
+            "Used_text": "储存过程中，若发现电池发热异常、变色、变形或其他反常情况，请停止使用电池。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Stop using the battery if the battery becomes abnormally hot, discoloration, deformation, or abnormal conditions is detected during use, charge, or storage.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Stop using the battery if the battery becomes abnormally hot, discoloration, deformation, or abnormal conditions is detected during use, charge, or storage.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Stop using the battery if the battery becomes abnormally hot, discoloration, deformation, or abnormal conditions is detected during use, charge, or storage.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "若电池漏液或产生臭味，请将其立刻远离火源。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Keep away from fire immediately when leakage or foul odors are detected.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Keep away from fire immediately when leakage or foul odors are detected.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Keep away from fire immediately when leakage or foul odors are detected.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "如果液体粘到皮肤或衣服上，立即用清水冲洗。若液体进入到眼睛，不要揉擦，用清水冲洗并马上就医。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "If liquid leaks onto your skin or cloths, wash well with fresh water immediately. If liquid leaking from the battery gets into your eyes, don't ru",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "If liquid leaks onto your skin or cloths, wash well with fresh water immediately.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Wash with fresh water immediately if liquid leaks onto skin or clothes",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "If liquid leaking from the battery gets into your eyes, don't rub your eyes and wash them with clean water and go to see a doctor immediately.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Do not rub eyes and wash with clean water immediately if liquid enters eyes; seek medical attention immediately",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "If the terminals of the battery become dirty, wipe with a dry cloth before using the battery.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "Wipe terminals with a dry cloth before use if they become dirty",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "10 若电池端子脏污，请用干布擦拭后再使用电池。",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "Do not use the battery if the terminals are dirty; wipe with a dry cloth before use",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "If the terminals of the battery become dirty, wi pe with a dry cloth before using the battery.",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "Do not use the battery if the terminals are dirty; wipe with a dry cloth before use",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "电池在以下温度范围内使用。不要超出这个范围。",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingCondition",
+            "tail": "The battery can be used within the following temperature ranges. Do not exceed these ranges.",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "充电温度范围： 0~45°C",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "充电温度范围： 0~45°C",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "放电温度范围： -20~60°C",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "放电温度范围： -20~60°C",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "储存电池温度不得高于 60°C",
+            "head": "ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "rge temperature ranges: 0~45°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMin",
+            "tail": "0",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "rge temperature ranges: 0~45°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "放电温度范围： -20~60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMin",
+            "tail": "-20",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "放电温度范围： -20~60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureDischargeMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "储存电池温度不得高于 60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Store the battery at temperature below 60°C",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasStorageTemperatureMax",
+            "tail": "60",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "充电电流必须控制在电池规格书规定值内。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "specified value",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "放电电流必须控制在电池规格书指定范围内。放电截止电压不得低于 2.75V/只。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasDischargeSpecification",
+            "tail": "2.75V/cell",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "...",
+            "head": "...",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "...",
+            "tail_type": "SafetyProperty"
+        },
+        {
+            "Used_text": "PASIFIK ELEKTRONIK ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head": "PASIFIK ELEKTRONIK ITH .IHR.SAN.ve TIC.LTD.STI.",
+            "head_type": "Manufacturer",
+            "relation": "hasManufacturer",
+            "tail": "",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "11 Replace the battery when using time of battery becomes ",
+            "head": "11 Replace the battery when using time of battery becomes ",
+            "head_type": "BatteryCell",
+            "relation": "hasSpecification",
+            "tail": "",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Replace the battery when using time of battery becomes much shorter than usual.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasPerformanceProperty",
+            "tail": "battery life decreases significantly",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "Cover terminals with insulating tape before proper disposal.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "terminals covered with insulating tape before disposal",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "If the battery is needed to be stored for a long period, battery should be removed from the application and stored in a place where humidity and temperature are low.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "stored in a place with low humidity and temperature",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "电池应退出使用，存储在温度、湿度都较低的地方。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "low temperature and low humidity storage",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "If the battery is needed to be stored for a long period, battery should be removed from the application and stored in a place where humidity and temperature are low.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasEnvironmentalCondition",
+            "tail": "low temperature and low humidity storage",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "电池在充电、使用和储存时，请将其远离带有静电的物 体材料。",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "keep away from static electricity generating materials",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "While the battery is charged, used and stored, keep it away from object materials with static electric chargers.",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasSafetyProperty",
+            "tail": "keep away from static electricity generating materials",
+            "tail_type": "str"
+        },
+        {
+            "Used_text": "t materials with static electric chargers.",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaterial",
+            "tail": "StaticElectricCharger",
+            "tail_type": "Material"
+        },
+        {
+            "Used_text": "t materials with static electric chargers.",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMaterial",
+            "tail": "Static Electric Charger",
+            "tail_type": "Material"
+        },
+        {
+            "Used_text": "rea where heat is generated in the application and the charger.",
+            "head": "rea",
+            "head_type": "BatteryCell",
+            "relation": "hasOperatingTemperatureChargeMax",
+            "tail": "application",
+            "tail_type": "str"
+        }
+    ]
+}

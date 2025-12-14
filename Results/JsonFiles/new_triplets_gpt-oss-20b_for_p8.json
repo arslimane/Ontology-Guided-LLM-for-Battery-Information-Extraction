@@ -1,0 +1,172 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "Thickness",
+            "head": "Thickness",
+            "head_type": "Dimension",
+            "relation": "hasThickness",
+            "tail": "?",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Width",
+            "head": "..??",
+            "head_type": "Dimension",
+            "relation": "hasWidth",
+            "tail": "..???",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Weight Approx. [g]                        Max. 5.8  (at delivery)                      ",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "5.8",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Weight Approx. ...",
+            "head": "",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "..???..????..??..???..",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "CE, FCCCharge Cut -off Voltage 4.2",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "3.7V 1710mAh 6.8 Wh",
+            "head": "XMA27",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "3.7",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "x",
+            "head": "XMA27",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "1710",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "mAh 6.33Wh",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalCapacity",
+            "tail": "6.33",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Z",
+            "head": "ZC",
+            "head_type": "BatteryCell",
+            "relation": "hasManufacturer",
+            "tail": "Z",
+            "tail_type": "Manufacturer"
+        },
+        {
+            "Used_text": "T: Charge high T@ 2.0C (3420mA) 2~3mS @10~60°C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "T: Charge high T@ 2.0C (3420mA) 2~3mS @10~60°C",
+            "head": "Rechargeable Lithium Ion Polymer Battery Cell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Voltage ...",
+            "head": "??..???.............",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "??..??....???..??..",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "003 000 Cycle …",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCycleLife",
+            "tail": "??",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Rate=0.2C 4.4Voltage (V) 4.2 4.0 3.8 3.6 3.4 ...",
+            "head": "Rate",
+            "head_type": "C_RatePerformance",
+            "relation": "hasDischargeCRate",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "4.4Voltage (V)",
+            "head": "4.4",
+            "head_type": "ElectricalProperty",
+            "relation": "hasNominalVoltage",
+            "tail": "4.4",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "4.2",
+            "head": "4..??",
+            "head_type": "ElectricalProperty",
+            "relation": "hasDischargeCutoffVoltage",
+            "tail": "?",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "...",
+            "head": "....",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "...",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Rate=0.2C",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasCRatePerformance",
+            "tail": "0.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "Charging the cell initially...",
+            "head": "BatteryCell",
+            "head_type": "BatteryCell",
+            "relation": "hasChargeCutoffVoltage",
+            "tail": "4.2",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "The cell mass ...",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "hasMass",
+            "tail": "45",
+            "tail_type": "float"
+        },
+        {
+            "Used_text": "en, Guangdong Province, 518109 ...",
+            "head": "Hon?",
+            "head_type": "BatteryCell",
+            "relation": "hasManufacturer",
+            "tail": "??",
+            "tail_type": "Manufacturer"
+        }
+    ]
+}

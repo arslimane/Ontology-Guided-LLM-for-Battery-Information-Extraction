@@ -1,0 +1,1084 @@
+{
+    "new_triples_": [
+        {
+            "Used_text": "trytechnologies,technologiesregardingbatteries,andtechnologiesreplacingbatteries",
+            "head": "trytechnologies",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "trytechnologies",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "lithium-ionbatteries,lithium-metalbatteries(suchassolidstatebatteries)",
+            "head": "lithium-ionbatteries",
+            "head_type": "BatteryCell",
+            "relation": "cell_hasElectrode",
+            "tail": "Lithium-Ion_Cell",
+            "tail_type": "Electrode"
+        },
+        {
+            "Used_text": "Fundamentals",
+            "head": "Fundamentals",
+            "head_type": "BatteryPhenomenon",
+            "relation": "isAnomaly",
+            "tail": "False",
+            "tail_type": "bool"
+        },
+        {
+            "Used_text": "Lithium metal technologies",
+            "head": "Lithiummetaltechnologies",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "Lithium metal technologies",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Batterystateestimation",
+            "head": "Batterystateestimation",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Safetyissueandfaultdiagnosis",
+            "head": "Safetyissueandfaultdiagnosis",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "5.1.2. Batterytechnologytrends",
+            "head": "Batterytechnologytrends",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "Batterytechnologytrends",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Wirelesspowerdrive",
+            "head": "Wirelesspowerdrive",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "MechanicalPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Discussionandrecommendation",
+            "head": "Discussionandrecommendation",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasConsequence",
+            "tail": "PerformanceDrop",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "Research hints of this review work.",
+            "head": "Research hints",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "Research hints",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "The development of EVs toward globalization is recognized as one of the most effective solutions.",
+            "head": "Development of EVs toward globalization",
+            "head_type": "Feature",
+            "relation": "hasCauseFeature",
+            "tail": "Effective solutions",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "attheglobalbatteryindustryisgrowingrapidly",
+            "head": "Global Battery Industry",
+            "head_type": "BatteryPack",
+            "relation": "exhibits",
+            "tail": "MechanicalPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "willexceed2500GWhinthennextdecade",
+            "head": "Global Battery Industry",
+            "head_type": "BatteryPack",
+            "relation": "exhibits",
+            "tail": "ElectricalPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "beyondlithium,SIBsexhibitsomecomparableKPIstoLIBs.",
+            "head": "SIBs",
+            "head_type": "BatteryCell",
+            "relation": "exhibits",
+            "tail": "Comparable KPIs to LIBs",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "Duringthecharge/dischargecycling,itfacilitatesthebatteriestoexerttheiroptimalperformanceandprolongtheirservicelives.",
+            "head": "BatteryManagementSystem",
+            "head_type": "BatteryPack",
+            "relation": "hasCauseFeature",
+            "tail": "Optimal performance and prolonged service lives",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "In aspects of software, with continuous upgradations of information communication and computer, the BMS may actively embrace some emerging technologies",
+            "head": "BMS",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "module",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "The electrochemical energy storage technologies",
+            "head": "Electrochemical energy storage technologies",
+            "head_type": "ElectrochemicalPhenomenon",
+            "relation": "exhibits",
+            "tail": "Lead-acid batteries",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "The electrochemical energy storage technologies",
+            "head": "Electrochemical energy storage technologies",
+            "head_type": "ElectrochemicalPhenomenon",
+            "relation": "exhibits",
+            "tail": "Nickel-based batteries",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "The electrochemical energy storage technologies",
+            "head": "Electrochemical energy storage technologies",
+            "head_type": "ElectrochemicalPhenomenon",
+            "relation": "exhibits",
+            "tail": "Lithium-ion batteries",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "The Tesla Model S battery module contains 100 lithium-ion cells.",
+            "head": "Tesla Model S Battery module",
+            "head_type": "BatteryModule",
+            "relation": "module_composedOfCell",
+            "tail": "Lithium-ion Cell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Thermal runaway can result in capacity degradation and performance drop in battery cells.",
+            "head": "Thermal runaway",
+            "head_type": "ThermalPhenomenon",
+            "relation": "hasConsequence",
+            "tail": "Capacity Degradation",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "applications.Moreover,itpossessessomekey",
+            "head": "applications.",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Nickel-basedNi–Fe 3Fe +8NiOOH +4H2O↔8Ni(OH)2 +Fe3O4 35∼80 150∼450 800∼2000Lowcost, highspecific powerLowenergy efficiency, lowspecific energyNi–MH: Toyota RAV4 L,Honda EV Plus,Peugeot 106Ni–Cd 2NiOOH +2H2O+Cd↔2Ni(OH)2 +Cd(OH)2 Ni–Zn 2NiOOH +2H2O+Zn↔2Ni(OH)2 +Zn(OH)2 Ni–MH MH +NiOOH ↔M+Ni(OH)2 Ni–H2 2NiOOH +H2↔2Ni(OH)2 Ambient-temperature lithium Li-ion aLiYO2 nominally represents LiCoO2 , LiNiO2 , LiMn2O4 and Li4Ti5O12 . bMyBz isthe transition metal material . 4064 W. Liu , T. Placke and K. T. Chau Energy Reports 8 ( 2022 ) 4058–4084 Fig.6. Milestones and for",
+            "head": "Ni–Fe",
+            "head_type": "BatteryCell",
+            "relation": "cell_hasElectrode",
+            "tail": "Electrode",
+            "tail_type": "Electrode"
+        },
+        {
+            "Used_text": "Toyota RAV4 L,Honda EV Plus,Peugeot 106",
+            "head": "Toyota RAV4 L",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "Lithium-Ion Batteries",
+            "head": "Lithium-Ion Batteries",
+            "head_type": "BatteryCell",
+            "relation": "exhibits",
+            "tail": "MechanicalPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "The state-of-the-art cathodematerials for high-energy LIB cells are the layered lithium nickel cobalt manganese oxides",
+            "head": "state-of-the-art cathodematerials",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "layered lithium nickel cobalt manganese oxides",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "The energy density and cost of LIBs can be further improved by increasing the cathode layered oxides’ nickel-content",
+            "head": "energy density and cost of LIBs",
+            "head_type": "Consequence",
+            "relation": "exhibits",
+            "tail": "cathode layered oxides’ nickel-content",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "NCM622 (Li[Ni 0.6Co0.2Mn0.2]O2) and NCM811 can be considered as state-of-the-art materials for automotive applications",
+            "head": "NCM622 (Li[Ni 0.6Co0.2Mn0.2]O2) and NCM811",
+            "head_type": "BatteryCell",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "state-of-the-art materials for automotive applications",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "the performance, advantages, drawbacks, and EV applications of LIBs.",
+            "head": "LIBs",
+            "head_type": "BatteryCell",
+            "relation": "hasName",
+            "tail": "Lithium-Ion Cells",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "eeToshibaSCiB™technology)(Toshiba",
+            "head": "eeToshibaSCiB™technology",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Various cells and batteries for EVs is listed in Table 2 (Schmuch et al., 2018; Zhang et al., 2019a; Li et al., 2020a)",
+            "head": "Various cells and batteries for EVs",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "Table 2",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "zinc/air, aluminum/air, iron/air, magnesium/air, calcium/air types besides the lithium/air counterpart",
+            "head": "zinc/air type",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Sodium-beta batteries",
+            "head": "Sodium-beta batteries",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "2001).TheNa/NiCl 2batteryhastheadvantagesofwideroperatingtemperature,lessmetallicmaterialcorrosion,andhigher powerdensity.",
+            "head": "Na/NiCl 2battery",
+            "head_type": "BatteryCell",
+            "relation": "exhibits",
+            "tail": "wider operating temperature",
+            "tail_type": "PerformanceDrop"
+        },
+        {
+            "Used_text": "b.Sodium/sulfurbattery: Na/Sbatteryadoptsthesulfurcathode, sodium anode, and beta-alumina ceramic electrolyte.",
+            "head": "Na/Sbattery",
+            "head_type": "BatteryCell",
+            "relation": "hasAffectedFeature",
+            "tail": "internal resistance",
+            "tail_type": "InternalResistanceIncrease"
+        },
+        {
+            "Used_text": "As listedinTable1,sodiumpentasulfideisgeneratedfromthereactionofthesulfuranodeandsodiumion.",
+            "head": "sodiumpentasulfide",
+            "head_type": "Electrolyte",
+            "relation": "hasName",
+            "tail": "sodiumpentasulfide",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "milarchemistrytoLIBs(Slateretal.,2013)",
+            "head": "milarchemistrytoLIBs",
+            "head_type": "BatteryPhenomenon",
+            "relation": "bp_hasTextDescription",
+            "tail": "TheSIB’sKPIscan beimprovedbychoosingtheelectrodematerials,suchascar-baneousmaterials,andintermetallicandorganiccompounds foranodematerials.Electrolytes,additives,andbindersarealso quiteimportant.Boththecelldesignandtheelectrodebalancing challengethefurtherdevelopmentofSIB.",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "AnothersecondaryZn–Mnbatterywithnear-neutralelectrolyteswasdevelopedbyusinghighlyactiveMn 3O4@carbonnanowires,whichshowedsuperiorperformanceinreversibility,capacity,andcyclingdurability.",
+            "head": "AnothersecondaryZn–Mnbattery",
+            "head_type": "BatteryCell",
+            "relation": "hasName",
+            "tail": "Zn–Mnbattery",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "AnothersecondaryZn–Mnbatterywithnear-neutralelectrolyteswasdevelopedbyusinghighlyactiveMn 3O4@carbonnanowires,whichshowedsuperiorperformanceinreversibility,capacity,andcyclingdurability.",
+            "head": "highlyactiveMn 3O4@carbonnanowires",
+            "head_type": "Electrode",
+            "relation": "cell_hasElectrode",
+            "tail": "AnothersecondaryZn–Mnbattery",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "2) battery can be classified into four categories by electrolytes:",
+            "head": "Battery",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "The Li-O 2 battery with nonaqueous electrolytes can reach an extremely high specific energy (",
+            "head": "Li-O 2 battery",
+            "head_type": "LithiumIonCell",
+            "relation": "exhibits",
+            "tail": "Nonaqueous electrolytes",
+            "tail_type": "Electrolyte"
+        },
+        {
+            "Used_text": "forhigh-energyelectricandhybridpropulsion",
+            "head": "SolidStateBatteries",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "terwithanoptionalpowerfactorcorrection(PFC)andonedirectionalorbidirectionalpowerflow,asshowninFig.10(a)and(b),respectively(MohammedandJung,2021;Tuetal.,2019).Theuseofahigh-frequency(HF)transformerisforhigh-efficiencyDC/DCconversionwithreliableisolation.",
+            "head": "HighFrequencyTransformer",
+            "head_type": "ElectricalPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Theuseofahigh-frequency(HF)transformerisforhigh-efficiencyDC/DCconversionwithreliableisolation.",
+            "head": "UseofHighFrequencyTransformer",
+            "head_type": "Recommendation",
+            "relation": "hasCauseFeature",
+            "tail": "ReliableIsolation",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "A battery model can be established, and some algorithms can be applied for battery state estimations.",
+            "head": "Advanced battery management system",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "Module",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "The AC impedances at different frequencies are acquired by electrochemical impedance spectroscopy (EIS)",
+            "head": "Advanced battery management system",
+            "head_type": "BatteryPack",
+            "relation": "module_composedOfCell",
+            "tail": "Lithium-ion Cell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Consideringamorerealisticscenario,apseudo-two-dimensionalmodelwasadoptedtosimulatethebatterybehaviors.",
+            "head": "amorerealisticscenario",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "pseudo-two-dimensional model",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Areduced-orderelectrochemicalmodelwasdevisedtoofferahighfidelityyetlowcomputationalcost.",
+            "head": "reduced-order electrochemical model",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "reduced-order electrochemical model",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "-electrochemicalmodelbecamearecent researchfocus(Lietal.,2021f).",
+            "head": "-electrochemicalmodel",
+            "head_type": "ElectrochemicalPhenomenon",
+            "relation": "isAnomaly",
+            "tail": "",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "EquivalentCircuitModel Toimprovethemodelapplicability,someresearchersmove forwardtoinvestigatetheequivalentcircuitmodels(ECMs)",
+            "head": "EquivalentCircuitModel",
+            "head_type": "ElectrochemicalPhenomenon",
+            "relation": "hasConsequence",
+            "tail": "",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "predictthe internal electrochemical states.",
+            "head": "predictthe internal electrochemical states",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "higher estimation accuracy but leads to more difficult parameter identification.",
+            "head": "higher estimation accuracy",
+            "head_type": "Feature",
+            "relation": "hasNominalVoltage",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "the battery current",
+            "head": "battery current",
+            "head_type": "ElectricalPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "KF techniques have been used to estimate the battery states including SOC, SOH, SOT, and remaining useful life (RUL).",
+            "head": "KF techniques",
+            "head_type": "Explanation",
+            "relation": "hasCauseFeature",
+            "tail": "Estimation of battery states",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "An intelligent adaptive extended KF was developed to handle the distribution change and improved the accuracy.",
+            "head": "An intelligent adaptive extended KF",
+            "head_type": "Explanation",
+            "relation": "hasCauseFeature",
+            "tail": "Improved accuracy",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "oreseetheagingtrajectoriesofLIBswithareducedsensitivity(Tangetal.,2019)",
+            "head": "LIB aging trajectories",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "LIB aging trajectories",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "ncertaintieswhilenotcausingaheavycomputational",
+            "head": "ncertaintieswhilenotcausingaheavycomputational",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "SEI_growth",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Data-drivenmethodintendstotreatabatterysystemasa",
+            "head": "Data-drivenmethod",
+            "head_type": "Explanation",
+            "relation": "representsCausalRelation",
+            "tail": "hasCauseFeature",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "UL, and internal temperature.",
+            "head": "UL, and internal temperature.",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "such a model will join the charging control and perform new control strategies, such as maximum current charging, most healthy charging, and shortest time charging rather than the constant-current and constant-voltage charging.",
+            "head": "such a model",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "Recommendation",
+            "tail_type": "Recommendation"
+        },
+        {
+            "Used_text": "eless,manyissuesmayaddtotheprediction difficultyintermsofvariableoperatingconditions,batterycell imbalances,andcellsagingunevenly.Theseissueswillchallenge theaccuracyofbatterypackprediction.",
+            "head": "BatteryPack",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "thebatterycapacityand shorten the service life.",
+            "head": "BatteryCapacity",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Thus, thermal management is a crucial requirement in various EVs, especially for improving the performance and safety of battery packs.",
+            "head": "ThermalManagement",
+            "head_type": "Consequence",
+            "relation": "hasConsequence",
+            "tail": "ImprovingPerformanceAndSafetyOfBatteryPacks",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "alancing algorithms mainly have three types: (i) voltage uniformity method, (ii) capacity uniformity method, and (iii) SOC uniformity method those are commonly used (Ouyang et al., 2018b, a).",
+            "head": "alancing algorithms",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "voltage uniformity method",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "alancing algorithms mainly have three types: (i) voltage uniformity method, (ii) capacity uniformity method, and (iii) SOC uniformity method those are commonly used (Ouyang et al., 2018b, a).",
+            "head": "alancing algorithms",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "capacity uniformity method",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "alancing algorithms mainly have three types: (i) voltage uniformity method, (ii) capacity uniformity method, and (iii) SOC uniformity method those are commonly used (Ouyang et al., 2018b, a).",
+            "head": "alancing algorithms",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "SOC uniformity method",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "venmethod",
+            "head": "venmethod",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "venmethod",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Least pre-test required",
+            "head": "Least pre-test required",
+            "head_type": "Consequence",
+            "relation": "hasConsequence",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "anintelligenteandcost-effectivemaintenanceplatformforregionalbatterynetworks",
+            "head": "MaintenancePlatform",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "Intelligent and Cost-effective Maintenance Platform",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "developinghigh-fidelitybatterymodelscanimprovetheaccuracyofstateestimations",
+            "head": "High-fidelityBatteryModels",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "alNNwasformulatedwithtwosub-models",
+            "head": "alNN",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "alNN",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "a data-driven method",
+            "head": "data-driven method",
+            "head_type": "Recommendation",
+            "relation": "hasName",
+            "tail": "data-driven method",
+            "tail_type": "Recommendation"
+        },
+        {
+            "Used_text": "BMS.Fig.25showsanecosystemof",
+            "head": "BMS",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "CCandAI",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "thecloudBMSbuiltupthedigitaltwinofbatterysystemsand",
+            "head": "cloudBMS",
+            "head_type": "BatteryPack",
+            "relation": "exhibits",
+            "tail": "CapacityFade",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "promising candidates mainly fall into three streams",
+            "head": "promising candidates",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "three streams",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "libswill still dominate and promote the ev applications atleast in thenext decade",
+            "head": "libswill still dominate and promote the ev applications",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasCauseFeature",
+            "tail": "long cycle life",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Technologies beyond lithium(such as sodium/magnesium) will be developed as potential candidates to fulfill the specialized requirements for different industrial applications.",
+            "head": "Technologies beyond lithium",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasCauseFeature",
+            "tail": "specialized requirements for different industrial applications",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "The batteries' lifetime can reach at least 2000 cycles and >10 years which are acceptable for EV applications.",
+            "head": "Battery lifetime",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasNominalVoltage",
+            "tail": "2000 cycles",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "The batteries' lifetime can reach at least 2000 cycles and >10 years which are acceptable for EV applications.",
+            "head": "Battery lifetime",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasDischargingCutOffVoltage",
+            "tail": ">10 years",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "battery management",
+            "head": "BatteryManagement",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasCauseFeature",
+            "tail": "BatteryManagementSystem",
+            "tail_type": "BatteryPack"
+        },
+        {
+            "Used_text": "wireless charging",
+            "head": "WirelessCharging",
+            "head_type": "ElectricalPhenomenon",
+            "relation": "exhibits",
+            "tail": "Lithium-IonCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "battery cell balancing and thermal management can be directly achieved by power converters only",
+            "head": "battery cell balancing and thermal management",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "battery cell balancing and thermal management",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "such V2V operations can readily extend to establish a vehicular energy network",
+            "head": "V2V operations",
+            "head_type": "CausalRelation",
+            "relation": "exhibits",
+            "tail": "vehicular energy network",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Advances in batteries and management technologies can straightforwardly address the concerns of energy and safety but still exhibits some lagging effects, especially in terms of the urgent requirements in the expanding EV market.",
+            "head": "Advances in batteries and management technologies",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasConsequence",
+            "tail": "Straightforwardly address the concerns of energy and safety",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "Two alternatives technologies, particularly wireless power drive, emerge to provide possible solutions to alleviate the urgency and even replace the high-energy batteries.",
+            "head": "Alternatives technologies",
+            "head_type": "BatteryPhenomenon",
+            "relation": "leadsTo",
+            "tail": "Wireless power drive",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "awirelesschargingtopologyisshowninfig.30,where",
+            "head": "Wireless Charging Topology",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "Fig.30",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "suchalowefficiencyisnotpreferableforhigh-efficiencyenergyutilization.",
+            "head": "Low Efficiency",
+            "head_type": "Consequence",
+            "relation": "hasConsequence",
+            "tail": "Wireless Charging Topology",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "both the roadmap and classification of ev batteries are elaborated clearly.",
+            "head": "roadmap",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "Roadmap",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "both the roadmap and classification of ev batteries are elaborated clearly.",
+            "head": "classification",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "Classification",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "The roadmap and classification of EV batteries are elaborated clearly.",
+            "head": "Roadmap and Classification of EV Batteries",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "The roadmap and classification of EV batteries are elaborated clearly.",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "fLIBs as well as real-time state prediction based on the practical dataset.",
+            "head": "fLIBs",
+            "head_type": "BatteryCell",
+            "relation": "exhibits",
+            "tail": "Dynamic Data-Driven Electrothermal Model",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Future direction is to develop the dynamic data-driven electrothermal model.",
+            "head": "Future direction",
+            "head_type": "Recommendation",
+            "relation": "hasCauseFeature",
+            "tail": "Development of Dynamic Data-Driven Electrothermal Model",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "A critical review of lithium-ion battery state of charge estimation",
+            "head": "CriticalReview",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "Lithium-IonBatteryStateOfChargeEstimation",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "A Vision for a Sustainable Battery Value Chain in 2030: Unlocking the Full Potential To Power Sustainable Development and Climate Change Mitigation",
+            "head": "VisionForSustainableBatteryValueChain",
+            "head_type": "Explanation",
+            "relation": "hasCauseFeature",
+            "tail": "SustainableDevelopmentAndClimateChangeMitigation",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "A general discussion of li ion battery",
+            "head": "li ion battery",
+            "head_type": "BatteryCell",
+            "relation": "hasName",
+            "tail": "li ion battery",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "A method for state of energy estimationoflithium-ionbatteriesbasedonneuralnetworkmodel.",
+            "head": "state of energy estimation",
+            "head_type": "Explanation",
+            "relation": "representsCausalRelation",
+            "tail": "state of energy estimation",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "",
+            "head": "",
+            "head_type": "BatteryCell",
+            "relation": "hasNominalVoltage",
+            "tail": "",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Studyofthecharacteristicsofbatterypacks",
+            "head": "Studyofthecharacteristicsofbatterypacks",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Howwe-made-the-li-ion-rechargeable-battery",
+            "head": "Howwe-made-the-li-ion-rechargeable-battery",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "state of charge estimation and management system in electric vehicle applications: Challenges and recommendations.",
+            "head": "state of charge estimation and management system",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "Challenges and recommendations",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Advanced fault diagnosis for lithium-ion battery systems: review of fault mechanisms, fault features, and diagnosis procedures.",
+            "head": "Advanced fault diagnosis for lithium-ion battery systems",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "Review of fault mechanisms, fault features, and diagnosis procedures",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Battery development",
+            "head": "Battery development",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "Battery Module",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "move and charge system for automatic guided vehicles",
+            "head": "Move-and-charge system",
+            "head_type": "BatteryPack",
+            "relation": "module_composedOfCell",
+            "tail": "Lithium-ion Cell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Effective and practical parameters of electrochemical Li-ion battery models for degradation diagnosis",
+            "head": "Effective and practical parameters of electrochemical Li-ion battery models",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "degradation diagnosis",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "Cloud-based battery condition monitoring and fault diagnosis platform for large-scale lithium-ion battery energy storage systems",
+            "head": "Cloud-based battery condition monitoring and fault diagnosis platform",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "large-scale lithium-ion battery energy storage systems",
+            "tail_type": "BatteryPack"
+        },
+        {
+            "Used_text": "Electronics10,1588.",
+            "head": "Electronics",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "Vehicular energy network.",
+            "head": "Vehicular energy network",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "supportvector regression",
+            "head": "supportvector regression",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "False",
+            "tail_type": "bool"
+        },
+        {
+            "Used_text": "Reliab.Eng.Syst.Saf.",
+            "head": "Reliability Engineering & System Safety",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "Lithium-ion battery capacity estimation – Apruned convolutional neural network approach assisted with transfer learning",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Low-complexity multivector-based model predictive torque control for PMSM with voltage preselection.",
+            "head": "Low-complexity multivector-based model predictive torque control for PMSM with voltage preselection",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "Low-complexness multivector-based model predictive torque control for PMSM with voltage preselection",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Three-vector-based model predictive torque control for SPMSM.",
+            "head": "Three-vector-based model predictive torque control for SPMSM",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "Three-vector-based model predictive torque control for SPMSM",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Control-oriented thermal-electrochemical modeling and validation of large size prismatic lithium battery for commercial applications.",
+            "head": "Control-oriented thermal-electrochemical modeling and validation of large size prismatic lithium battery for commercial applications",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "Control-oriented thermal-electrochemical modeling and validation of large size prismatic lithium battery for commercial applications",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Battery fault diagnosis for electric vehicles based on voltage abnormality by combining the long short-term memory neural network and the equivalent circuit model.",
+            "head": "Battery fault diagnosis for electric vehicles based on voltage abnormality by combining the long short-term memory neural network and the equivalent circuit model",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "Battery fault diagnosis for electric vehicles based on voltage abnormality by combining the long short-term memory neural network and the equivalent circuit model",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "J.,Asghar,I.,Lund,P.D.,2016.Ahybridlithium-ionbatterymodelfor",
+            "head": "J.,Asghar,I.,Lund,P.D.",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "A hybrid lithium-ion battery model for system-level analyses",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Lithium titanate oxide",
+            "head": "Lithium titanate oxide",
+            "head_type": "Feature",
+            "relation": "hasName",
+            "tail": "Lithium titanate oxide",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Classification/common topologies/future research issues.",
+            "head": "Classification",
+            "head_type": "BatteryPhenomenon",
+            "relation": "hasName",
+            "tail": "Classification",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Lithium titanate oxide battery cells for high-power automotive applications – Electro-thermal properties, aging behavior and cost considerations.",
+            "head": "Lithium titanate oxide battery cells",
+            "head_type": "BatteryCell",
+            "relation": "hasName",
+            "tail": "Lithium titanate oxide battery cells",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Predicting the state of charge and health of batteries using data-driven machine learning.",
+            "head": "Predicting the state of charge and health of batteries",
+            "head_type": "BatteryPhenomenon",
+            "relation": "isExplainedBy",
+            "tail": "Data-driven machine learning",
+            "tail_type": "Explanation"
+        },
+        {
+            "Used_text": "Secondary Batteries—Lead–Acid Systems",
+            "head": "Secondary Batteries",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "Lead–Acid System",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "batterycontainerstoragesystemviaelectro-thermalmodelinganddetailed componentanalysis",
+            "head": "batterycontainerstoragesystem",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "module",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "torhybridenergystoragesystemsforelectric vehicleapplications",
+            "head": "torhybridenergystoragesystemsforelectric vehicleapplications",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "BatteryModule",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "Adv.Funct.Mater.28,1802564.",
+            "head": "Adv.Funct.Mater.",
+            "head_type": "BatteryPack",
+            "relation": "batteryPack_composedOfModule",
+            "tail": "module",
+            "tail_type": "BatteryModule"
+        },
+        {
+            "Used_text": "migration neural network for predicting battery aging trajectories.",
+            "head": "migration neural network",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "Battery Aging Trajectories",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "IEEE Trans.Transp.Electrif.6,363–374.",
+            "head": "IEEE Trans.Transp.Electrif.",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "Transport Electrification",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Stability and control analysis for series-input/parallel-output cell balancing system for electric vehicle battery packs",
+            "head": "Stability and control analysis",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "Series-input/parallel-output cell balancing system for electric vehicle battery packs",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "16a.Acriticalreviewofthermalmanagement modelsandsolutionsoflithium-ionbatteriesforthedevelopmentofpure electricvehicles.",
+            "head": "16a.Acriticalreviewofthermalmanagement",
+            "head_type": "Explanation",
+            "relation": "isAnomaly",
+            "tail": "Lithium-Ion Battery",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "Renew.Sustain.EnergyRev.64,106–128.",
+            "head": "Renew.Sustain.EnergyRev.",
+            "head_type": "Explanation",
+            "relation": "hasName",
+            "tail": "Energy Review",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "History,evolution,andfuturestatusofenergystorage",
+            "head": "History",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "EnergeticStorage",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "Before li ion batteries",
+            "head": "BeforeLiIonBatteries",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "BatteryTechnologyEvolution",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "model.Energies10,457.",
+            "head": "model.Energies",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "10,457",
+            "tail_type": "Consequence"
+        },
+        {
+            "Used_text": "Effects analysis on heat dissipation characteristics of lithium-ion battery thermal management system under the synergism of phase change material and liquid cooling method.",
+            "head": "Effects analysis",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "heat dissipation characteristics of lithium-ion battery thermal management system under the synergism of phase change material and liquid cooling method",
+            "tail_type": "Feature"
+        },
+        {
+            "Used_text": "Rechargeable aqueousZn-V 2O5batterywithhighenergydensityandlongcyclelife",
+            "head": "Rechargeable aqueousZn-V 2O5battery",
+            "head_type": "BatteryCell",
+            "relation": "hasName",
+            "tail": "Zn-V 2O5battery",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "issuesoflithium-ionbatteriesforelectricvehicleapplication",
+            "head": "issuesoflithium-ionbatteriesforelectricvehicleapplication",
+            "head_type": "BatteryPhenomenon",
+            "relation": "exhibits",
+            "tail": "BatteryPhenomenon",
+            "tail_type": "BatteryPhenomenon"
+        },
+        {
+            "Used_text": "lied to lithium-ion batteries",
+            "head": "Lied",
+            "head_type": "Explanation",
+            "relation": "isExplainedBy",
+            "tail": "LithiumIonCell",
+            "tail_type": "BatteryCell"
+        },
+        {
+            "Used_text": "lithium-ion batteries",
+            "head": "LithiumIonCell",
+            "head_type": "BatteryCell",
+            "relation": "cell_hasElectrode",
+            "tail": "Electrode",
+            "tail_type": "Electrode"
+        }
+    ]
+}
