@@ -1,13 +1,6 @@
 #!/bin/bash
 #SBATCH -p publicgpu 
 #SBATCH --job-name=LLM_Triple_Extraction
-#SBATCH -N 1
-#SBATCH --gres=gpu:1 
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=96G
-#SBATCH --constraint==gputc&gpurtx6000
-#SBATCH --time=04:00:00 
-#SBATCH --mail-type=END
 #SBATCH --mail-user=slimane.arbaoui@insa-strasbourg.fr
 
 echo "--- STARTING LLM EXTRACTION JOB ---"
@@ -21,11 +14,10 @@ module load cuda/13.0
 echo "Modules loaded: Python 3.11, CUDA 13.0"
 
 # 3. Activate your PyTorch virtual environment
-source ~/Jobs/Job1/cudavenv/bin/activate
+#source ~/Jobs/Job1/cudavenv/bin/activate
 echo "Virtual environment activated."
 
 # ================= PYTORCH/LLM EXECUTION =================
-# Recommended: Set environment variable to reduce GPU memory fragmentation
 export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
 
 # Run your Python script that handles PDF parsing and LLM inference
